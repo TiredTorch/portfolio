@@ -10,8 +10,7 @@ const Skills = () => {
     return (
         <section className="skills">
             <h2>If you still not sure</h2>
-            <div className="desc">
-                </div>
+            <div className="desc"></div>
             <div className="advs">
                 <Advsball img="http://placekitten.com/200/300" text="UI/UX Designer"/>
                 <Advsball img="http://placekitten.com/200/300" text="Front-end Developer"/>

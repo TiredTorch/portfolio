@@ -1,4 +1,5 @@
 .photo{
+    z-index: 5;
     position: absolute;
     background-color: #2882A0;
     width: 88vh;
@@ -11,6 +12,7 @@
     
     
     img{
+        z-index: 5;
         position: relative;
         left: 35vh;
         height: 85vh;

@@ -7,7 +7,7 @@ import Speach from './Speach/Speach';
 
 const Visitings = () => {
     return (
-        <section>
+        <section className="visitings">
             <Photo/>
             <Speach/>
             <div className="name">
