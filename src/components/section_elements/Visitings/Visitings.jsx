@@ -10,6 +10,11 @@ const Visitings = () => {
         <section>
             <Photo/>
             <Speach/>
+            <div className="name">
+                <span>Victor Ivanov</span>
+                <span></span>
+                <span>Web designer</span>
+            </div>
         </section>
     );
 }
