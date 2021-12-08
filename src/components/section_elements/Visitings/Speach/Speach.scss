@@ -1,0 +1,32 @@
+.speach{
+    position: absolute;
+    left: 55vw;
+    top: 25vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: flex-start;
+
+    h2{
+        font-size: 4vw;
+    }
+    span{
+        font-size: 4vw;
+
+    }
+    button{
+        cursor: pointer;
+        margin-top: 4vh;
+        width: 25vw;
+        height: 10vh;
+        font-size: 3vw;
+        border-radius: 40px;
+        background-color: #2882A0;
+        border: none;
+
+        &:focus{
+            outline: none;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+$DBC : #03040F;
+
+header{
+    position: fixed;
+    z-index: 60;
+
+    font-size: calc(16px + 1.4vw);
+
+    background-color: $DBC;
+    width: 95vw;
+    height: 15vh;
+
+    padding: 0 2.5vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+        color: white;
+        font-size: 4rem;
+    }
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        li{
+            color: white;
+            margin-right: 17px;
+            list-style: none;
+        }
+    }
+}

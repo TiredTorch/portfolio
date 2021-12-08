@@ -1,0 +1,18 @@
+.photo{
+    position: absolute;
+    background-color: #2882A0;
+    width: 88vh;
+    height: 88vh;
+    border-radius: 50%;
+    top: 20vh;
+    left: -35vh;
+
+    overflow: hidden;
+    
+    
+    img{
+        position: relative;
+        left: 35vh;
+        height: 85vh;
+    }
+}
