@@ -1,0 +1,39 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 10;
+    background-color: rgb(255, 255, 255);
+
+    h2{
+        padding-top: 3vh;
+        font-size: 4vw;
+    }
+    .desc{
+        position: relative;
+        top: 3vh;
+        width: 50vh;
+        height: 50vh;
+        border-radius: 50%;
+        background-color: black;
+    }
+    .advs{
+        width: 90%;
+        position: relative;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        top: -10vh;
+
+        .ball{
+            &:nth-child(2){
+                margin: 19vh 5vw 0;
+            }
+        }
+    }
+}
