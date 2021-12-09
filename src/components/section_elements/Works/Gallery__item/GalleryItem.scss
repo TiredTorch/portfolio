@@ -1,0 +1,30 @@
+.gal__item{
+    width: 30vw;
+    height: 30vh;
+    box-sizing: border-box;
+    box-shadow: 13px 11px 5px -1px rgba(0, 0, 0, 0.71);
+    background-size: 30vw 30vh;
+    border-radius: 10px;
+    border: .5vw solid #ffffff;
+
+        
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vw;
+    a{
+        color: rgba(52, 137, 165, 0);
+        transition: all .3s ease-in;
+    }
+
+    &:hover{
+        
+        a{
+            color: rgb(52, 137, 165);
+            transition: all .3s ease-in;
+            text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.98);
+        }
+        
+    }
+}

@@ -10,16 +10,24 @@
     background-color: rgb(255, 255, 255);
 
     h2{
-        padding-top: 3vh;
+        padding-top: 1vh;
         font-size: 4vw;
     }
     .desc{
+        z-index: 30;
+        transition: all 1s;
         position: relative;
-        top: 3vh;
+        top: 1vh;
         width: 50vh;
         height: 50vh;
         border-radius: 50%;
         background-color: black;
+
+        
+        &.transition{
+            transition: all 1s;
+            transform: scale(5);
+        }
     }
     .advs{
         width: 90%;
@@ -32,8 +40,9 @@
 
         .ball{
             &:nth-child(2){
-                margin: 19vh 5vw 0;
+                margin: 14vh 5vw 0;
             }
         }
     }
+
 }
