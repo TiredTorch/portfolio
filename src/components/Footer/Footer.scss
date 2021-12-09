@@ -1,5 +1,92 @@
 footer{
+    color: white;
+
     width: 100vw;
-    height: 40vh;
-    background-color: red;
+    height: 50vh;
+    background-color: #03040E;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .breakLine{
+        margin: 0 auto;
+        width: 90vw;
+        content: "";
+        height: 6px;
+        background-color: #2882A0;
+    }
+
+    .feedback{
+        width: 80vw;
+        margin-left: 10vw;
+        height: 30vh;
+        display: flex;
+        justify-content: space-between;
+        .title{
+            font-size: 6vh;
+        }
+        .fields{
+            margin-top: 4vh;
+            display: flex;
+            justify-content: space-between;
+            .labels{
+                line-height: 4vh;
+                font-size: 4vh;
+                display: flex;
+                flex-direction: column;
+                p{
+                    height: 6vh;
+                    &:last-child{
+                        margin-top: 1vh;
+                        height: 18vh;
+                    }
+                }
+            }
+            .inputs{
+                display: flex;
+                flex-direction: column;
+                width: 28vw;
+                margin-left: 1vw;
+                input, textarea{
+                    resize: none;
+                    font-size: 4vh;
+                    &:focus{
+                        outline: none;
+                    }
+                    
+                    height: 6vh;
+                    &:last-child{
+                        margin-top: 1vh;
+                        height: 18vh;
+                    }
+                }
+            }
+        }
+    }
+
+    .sub__footer{
+        margin-left: 2vw;
+        width: 96vw;
+        margin-bottom: 2vh;
+        font-size: 3vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            list-style: none;
+
+            a{
+                color: white;
+                li{
+                    margin-left: 1vw;
+                }
+            }
+            
+        }
+    }
 }

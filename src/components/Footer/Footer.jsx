@@ -17,27 +17,25 @@ const Footer = () => {
                     </div>
                     <div className="inputs">
                         <input type="text" name="" id="" />
-                        <input type="text" name="" id="" />
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
                     </div>
                 </div>
             </div>
-            <div className="sub__footer">
-                <nav>
-                    <ul>
-                        <a href="#">
-                            <li>About</li>
-                        </a>
-                        <a href="#">
-                            <li>Contacts</li>
-                        </a>
-                        <a href="#">
-                            <li>Recent Works</li>
-                        </a>
-                        <a href="#">
-                            <li>Get in Touch</li>
-                        </a>
-                    </ul>
-                </nav>
+            <div className="sub__footer"> 
+                <ul>
+                    <a href="#">
+                        <li>About</li>
+                    </a>
+                    <a href="#">
+                        <li>Contacts</li>
+                    </a>
+                    <a href="#">
+                        <li>Recent Works</li>
+                    </a>
+                    <a href="#">
+                        <li>Get in Touch</li>
+                    </a>
+                </ul>
                 <div className="rights">(2022), ALL RIGHTS RESERVED</div>
             </div>
         </footer>
